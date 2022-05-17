@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #f88200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.container .pagination {
+    margin-bottom: 5vh;
+}
+
+.container .pagination a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.container .table th {
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+.container .table i.material-icons {
+   color: var(--primary-color);
+}
